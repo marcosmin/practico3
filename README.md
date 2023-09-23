@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Piedra, Papel o Tijera con REACT 🗿📄✂️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido/a al juego de Piedra, Papel o Tijera creado con REACT! Este es un juego simple pero entretenido en el que compites contra la máquina en una serie de rondas. Fue desarrollado como parte del Trabajo Práctico Nº3 de la formación en "Argentina Programa 4.0" dictado en 2023 por la FAMAF - UNC. | 👨‍🎓 **ALUMNO: Marcos Mingo**.
+A continuación, se describe cómo funciona el juego, como ejecutarlo y los elementos que lo componen.
 
-## Available Scripts
+## Capturas de Pantalla 📸
 
-In the project directory, you can run:
+![Captura 1](./src/imagenes/screenshot1.jpg)
 
-### `npm start`
+![Captura 2](./src/imagenes/screenshot2.jpg)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![Captura 3](./src/imagenes/screenshot3.jpg)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Cómo Jugar 🎮
+1. Al iniciar el juego, se te pedirá que ingreses tu nombre.
+2. Una vez que ingreses tu nombre y hagas clic en "Jugar", podrás elegir entre las opciones de "Piedra", "Papel" o "Tijera" haciendo clic en los botones correspondientes.
+3. Después de hacer tu elección, la máquina también hará su elección de forma aleatoria.
+4. Se determinará el resultado de la ronda y se actualizarán los puntos.
+5. El juego continúa hasta que un jugador alcance 3 puntos, momento en el que se anunciará al ganador.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Elementos del Juego 🕹️
+* Botón "Jugar": Inicia el juego y registra el nombre del usuario.
+* Avatar de Usuario y Máquina: Representan a los jugadores. 👤🤖
+* Display: Muestra mensajes y resultados del juego.
+* Botón "Reiniciar": Reinicia el juego. 🔄
+* Botón "Salir": Cierra el juego. ❌
+* Puntos de Usuario y Máquina: Muestran los puntos acumulados. 0️⃣-1️⃣
+* Barras de Vida: Indican la vida que le queda a cada jugador. (aun no implementada)
+* Round: Muestra el número de ronda.
 
-### `npm run build`
+## Cómo Ejecutar el Juego ▶️
+1. **Navegar a:** https://marcosmin.github.io/practico3/ 🌐
+2. **Registro de usuario:** Ingresa tu nombre y haz clic en "Jugar".
+3. **Manejo de Errores:** Si el campo está vacío, se mostrará un mensaje de error y no podrás avanzar hasta ingresar tu nombre.
+4. **Jugada:** Elige tu jugada haciendo clic en "Piedra", "Papel" o "Tijera". 🗿📄✂️
+5. **Reiniciar:** Observa el resultado de la ronda y decide si deseas seguir jugando o reiniciar el juego para comenzar una nueva partida.
+6. **Salir:** Si deseas salir del juego, puedes hacerlo utilizando el botón "Salir". ❌
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Licencia 💚
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Este proyecto es de Libre Uso.** Puedes utilizar, modificar y distribuir el código de este proyecto de acuerdo a tus necesidades.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Hecho con ❤️ por [Marcos Mingo](https://github.com/marcosmin) 😊

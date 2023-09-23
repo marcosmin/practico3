@@ -1,0 +1,42 @@
+.areaJuego {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:space-between;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Estilos compartidos para áreas de juego del usuario y la máquina */
+.areaUsuario, .areaMaquina {
+  width: 35%;
+  margin-top: 1.5vw;
+}
+
+/* Estilos para el contenedor de datos o parte central */
+.areaDatos {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+/*
+.areaUsuario {
+  background-color: red;
+}
+
+.areaDatos {
+  background-color: rgba(255, 255, 255, 0.096);
+}
+
+.areaMaquina {
+  background-color: greenyellow;
+}
+*/

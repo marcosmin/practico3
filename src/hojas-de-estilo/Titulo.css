@@ -1,0 +1,17 @@
+/* Estilos del título */
+.titulo {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-top: 75px solid #D9D9D9;
+}
+
+/* Estilos del texto del título */
+.titulo p {
+  color: #000000;
+  text-align: center;
+  margin-top: -61px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+}

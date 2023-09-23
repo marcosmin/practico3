@@ -1,0 +1,35 @@
+.datos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.datos2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Estilos para los campos de entrada */
+.nombre {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  color: #37015b;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5vw;
+  width: 80%;
+  border: 1px solid #fff;
+  margin-top: 1.5vw;
+}

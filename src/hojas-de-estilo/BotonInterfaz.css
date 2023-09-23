@@ -1,0 +1,73 @@
+/* Estilos para el boton de reiniciar */
+.reiniciar {
+    position:relative;
+    width: 6.5vw;
+    height: 6.5vw;
+    overflow: hidden;
+    border-radius: 50%;
+    /* margin-top: 2.2vw; */
+    margin-left: 2.5vw;
+    background-color: #4d4d4d;
+    cursor: pointer;
+    transition: rotate 0.3s ease-in-out;
+}
+
+.reiniciar:hover {
+    background-color: #b9a400;
+    rotate: -180deg;
+}
+
+.reiniciar img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para el boton de salir */
+.salir {
+    position: relative;
+    width: 6.5vw;
+    height: 6.5vw;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 2.2vw;
+    margin-bottom: 2.2vw;
+    margin-right: 2.5vw;
+    background-color: #4d4d4d;
+    cursor: pointer;
+    transition: rotate 0.3s ease-in-out;
+}
+
+.salir:hover {
+    background-color: #b50000;
+    rotate: -180deg;
+}
+
+.salir img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Estilos para el boton de cambiar Usuario */
+.cambiarUsuario {
+    position:relative;
+    width: 6.5vw;
+    height: 6.5vw;
+    overflow: hidden;
+    border-radius: 50%;
+    /* margin-top: 2.2vw; */
+    margin-left: 2.5vw;
+    background-color: #4d4d4d;
+    cursor: pointer;
+    transition: rotate 0.3s ease-in-out;
+}
+
+.cambiarUsuario:hover {
+    background-color: #6400b5;
+    rotate: -180deg;
+}
+
+.cambiarUsuario img {
+    width: 100%;
+    height: auto;
+}

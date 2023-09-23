@@ -1,0 +1,13 @@
+.jugada img {
+    width: 100%;
+}
+
+.jugada-usuario-imagen, .jugada-maquina-imagen {
+    width: 100%;
+}
+
+.jugada p {
+    color: #fff;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

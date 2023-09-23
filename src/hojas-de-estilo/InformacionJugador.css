@@ -1,0 +1,57 @@
+/* Estilos para el contenedor de la info del usuario */
+.informacion-usuario {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10%;
+}
+
+/* Estilos para el contenedor de la info de la maquina */
+.informacion-maquina {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 10%;
+}
+
+/* Estilos para el nombre del usuario */
+.nombre-usuario {
+  margin-top: 5px;
+  margin-left: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.3vw;
+  color: #fff;
+  order: 1;
+}
+
+/* Estilos para el nombre de la máquina */
+.nombre-maquina {
+  margin-top: 5px;
+  margin-right: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.3vw;
+  color: #fff;
+  order: 2;
+}
+
+/* Estilos para los puntos del usuario */
+.puntos-usuario, .puntos-maquina {
+  width: 4.2vw;
+  height: 4.2vw;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  line-height:4.2vw;
+  font-size: 3.3vw;
+  background-color: #D9D9D9;
+  margin-top: 0px;
+}
+
+.puntos-usuario {
+  margin-right: 2.5vw;
+  order: 2;
+}
+
+.puntos-maquina {
+  margin-left: 2.5vw;
+  order: 1;
+}

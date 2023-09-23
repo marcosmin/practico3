@@ -1,0 +1,14 @@
+/* Estilos para el botón de jugar */
+.boton-jugar {
+  color: #2b0147;
+  background-color: rgb(255, 119, 0);
+  padding: 0.3vw 0.9vw;
+  margin-top: 2vw;
+  font-size: 3vw;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 1vw;
+}
+
+.boton-jugar:hover {
+  background-color: rgb(255, 208, 0);
+}

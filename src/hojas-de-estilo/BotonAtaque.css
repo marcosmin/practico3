@@ -1,0 +1,46 @@
+.piedra-usuario, .papel-usuario, .tijera-usuario {
+  position: relative;
+  width: 10vw;
+  height: 10vw;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: 0px 1.2vw 1.2vw 1.2vw;
+  cursor: pointer;
+}
+
+.piedra-usuario {
+  border: 2px solid #000000;
+  background-color: #029200;
+}
+
+.piedra-usuario:hover {
+  background: linear-gradient(-45deg, #66a100, #209300, #01ff2f);
+}
+
+.papel-usuario {
+  border: 2px solid #000000;
+  background-color: #ffc800;
+}
+
+.papel-usuario:hover {
+  background: linear-gradient(-45deg, #c8aa00, #ceaf01, #f7ff01);
+}
+
+.tijera-usuario {
+  border: 2px solid #000000;
+  background-color: #c70202;
+}
+
+.tijera-usuario:hover {
+  background: linear-gradient(-45deg, #a10000, #930000, #ff5930);
+}
+
+.piedra-usuario img, .papel-usuario img, .tijera-usuario img{
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+
+.piedra-usuario img:hover, .papel-usuario img:hover, .tijera-usuario img:hover {
+  transform:scale(105%);
+}
